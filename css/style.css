@@ -1,0 +1,16 @@
+.marine{
+    background-color: rgba(35, 132, 243, 0.384);
+}
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(2, 27, 255, 0.8); 
+    transform: scale(1.10); 
+}
+.half-screen-image {
+    height: 50vh;
+    background-image: url("img/ocean_background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.homepage{
+  background-color: rgb(100, 100, 100);
+}
