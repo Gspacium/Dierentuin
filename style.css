@@ -1,0 +1,177 @@
+body{
+    background-color: lightgreen;
+}
+
+.foto{
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(slang.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.foto2{
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(leeuw.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.foto3{
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(gorilla.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.foto4{
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(tijger.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.foto5{
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(papegaai.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.foto6{
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(tarantula.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.foto:hover{
+    transform: translateY(-10px);
+}
+.foto2:hover{
+    transform: translateY(-10px);
+}
+.foto3:hover{
+    transform: translateY(-10px);
+}
+.foto4:hover{
+    transform: translateY(-10px);
+}
+
+.foto5:hover{
+    transform: translateY(-10px);
+}
+
+.foto6:hover{
+    transform: translateY(-10px);
+}
+
+
+h5{
+    color:white;
+    text-shadow: 0 0 5px #999;
+}
+
+.foto4 p {
+    color:white;
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+.foto3 p {
+    color:white;
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+.foto2 p {
+    color:white;
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+.foto p {
+    color:white;
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: lightgreen;
+    font-size: 100px;
+}
+
+p{
+    color: #000;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #FFF;
+    border: 2px solid #000;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.border1{
+    height:900px;
+    width: auto;
+    border:2px solid #000;
+    padding:10px;
+    background-color: #FFF;
+}
+
