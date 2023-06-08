@@ -1,0 +1,27 @@
+.border1{
+    height:auto;
+    width: auto;
+    border:2px solid #000;
+    padding:10px;
+    background-color: #FFF;
+    border-radius: 10px;
+}
+
+p{
+    color: burlywood;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+body{
+    background-color: burlywood;
+}
+
+h1{
+    color: burlywood;
+    font-size: 100px;
+}
+
+.col{
+    flex-basis: 50%;
+}

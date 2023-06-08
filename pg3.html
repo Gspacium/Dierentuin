@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="style3.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Start your project here-->
+
+ <div class="container">
+    <div class="border1">
+        <h1>Tickets Kopen</h1>
+        <div class="row">
+            <div class="col">
+                <label for="name">Naam:</label>
+                <input type="text" name="name" id="name" size="30" required><br>
+            </div>
+            <div class="col">
+                <label for="name">E-mail:</label>
+                <input type="text" name="email" id="email" size="30" required ><br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+            Kinderen -5 jaar: Gratis  <input type="number" name="aantal" min=0 max=15 placeholder="0" ><br>
+            <h1>    </h1>
+            Kinderen 6-12 jaar: 10eu  <input type="number" name="aantal" min=0 max=15 placeholder="0" ><br>
+            </div>
+            <div class="col">
+            Jongeren 13-17 jaar: 15eu  <input type="number" name="aantal" min=0 max=15 placeholder="0" ><br>
+            <h1>    </h1>
+            Volwassenen: 20eu  <input type="number" name="aantal" min=0 max=15 placeholder="0" ><br>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col">
+                <h1>    </h1>
+                <label>Betalingsmogelijkheden:</label>
+                    <select name="Cadeaubon">
+                    <option value="Mahogany">Cadeaubon</option>
+                    <option value="Maplewood">PayPal</option>
+                    <option value="Pine">CreditCard</option>
+                    <option value="Cherry">QR-code</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <a class="btn btn-succes rounded-pill" href="index.html"
+                role="button">Home Pagina 
+            </a>
+            <a class="btn btn-succes rounded-pill" href="pg2.html"
+                role="button">Vorige Pagina 
+            </a>
+            <a class="btn btn-succes rounded-pill" href="index.html"
+                role="button"> Betalen 
+            </a>
+        </div>
+    </div>
+    </div>
+
+  <!-- /Start your project here-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>
